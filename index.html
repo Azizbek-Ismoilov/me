@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azizbek Ismoilov | Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span>A</span>
+            <span>Z</span>
+            <span>I</span>
+            <span>Z</span>
+            <span>B</span>
+            <span>E</span>
+            <span>K</span>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Particles ID -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#" class="logo">Azizbek<span>.uz</span></a>
+        
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Asosiy</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#skills">Ko'nikmalar</a></li>
+                <li><a href="#portfolio">Loyihalar</a></li>
+                <li><a href="#contact">Bog'lanish</a></li>
+            </ul>
+            
+            <!-- Dark/Light Mode Toggle -->
+            <button id="theme-toggle" class="theme-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content scroll-reveal">
+            <h3>Salom, mening ismim</h3>
+            <h1 class="glitch-text" data-text="Azizbek Ismoilov">Azizbek Ismoilov</h1>
+            <h2>Men <span class="typing"></span></h2>
+            <p>Zamonaviy, interaktiv va yuqori tezlikda ishlovchi veb-loyihalarni yaratish men uchun nafaqat kasb, balki qiziqarli xobbi.</p>
+            
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Loyihalarni ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Bog'lanish</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon" style="--i:1"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon" style="--i:2"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" style="--i:3"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" class="social-icon" style="--i:4"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <div class="hero-img">
+            <div class="img-box">
+                <!-- Abstract Shape instead of image for visual wow factor -->
+                <div class="liquid-shape"></div>
+            </div>
+        </div>
+        
+        <a href="#about" class="scroll-down">
+            <i class="fa-solid fa-angles-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-heading scroll-reveal">
+            <h2 class="title">Men <span>Haqimda</span></h2>
+            <p class="subtitle">Kodni san'at darajasiga olib chiqishni maqsad qilgan dasturchiman.</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text scroll-reveal">
+                <h3>Veb kashfiyotchisi & Frontend Dasturchi</h3>
+                <p>Men, <b>Azizbek Ismoilov</b>, eng so'nggi texnologiyalar orqali haqiqiy muammolarga kreativ yechimlar yaratishni yoqtiraman. Kod yozish orqali g'oyalarni real loyihalarga aylantiraman.</p>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>azizbek.ismoilov@example.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>O'zbekiston, Toshkent</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Erkin frilanser & Dasturchi</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn btn-primary mt-20">Rezyumeni yuklash <i class="fa-solid fa-download"></i></a>
+            </div>
+            
+            <div class="stats-grid scroll-reveal">
+                <div class="stat-box">
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Yillik tajriba</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="counter" data-target="50">0</h3>
+                    <p>Tugatilgan loyihalar</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="counter" data-target="20">0</h3>
+                    <p>Mamnun mijozlar</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="counter" data-target="1500">0</h3>
+                    <p>Soat kod yozilgan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-heading scroll-reveal">
+            <h2 class="title">Mening <span>Ko'nikmalarim</span></h2>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skills-col scroll-reveal">
+                <h3 class="skills-title"><i class="fa-solid fa-code"></i> Dasturlash tillari</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML / CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="95%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>TypeScript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="70%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-col scroll-reveal" style="transition-delay: 0.2s;">
+                <h3 class="skills-title"><i class="fa-solid fa-layer-group"></i> Freymvorklar</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React.js</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="90%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Vue.js</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Node.js / Express</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="65%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Extracurricual Skills (Circles) -->
+        <div class="circle-skills scroll-reveal">
+            <div class="circle-box">
+                <div class="circle" data-percent="85">
+                    <svg><circle cx="50" cy="50" r="45"></circle><circle class="progress" cx="50" cy="50" r="45"></circle></svg>
+                    <div class="number">85%</div>
+                </div>
+                <h4>Muammoni hal qilish</h4>
+            </div>
+            <div class="circle-box">
+                <div class="circle" data-percent="90">
+                    <svg><circle cx="50" cy="50" r="45"></circle><circle class="progress" cx="50" cy="50" r="45"></circle></svg>
+                    <div class="number">90%</div>
+                </div>
+                <h4>Kreativlik</h4>
+            </div>
+            <div class="circle-box">
+                <div class="circle" data-percent="75">
+                    <svg><circle cx="50" cy="50" r="45"></circle><circle class="progress" cx="50" cy="50" r="45"></circle></svg>
+                    <div class="number">75%</div>
+                </div>
+                <h4>Jamoada ishlash</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="section-heading scroll-reveal">
+            <h2 class="title">So'nggi <span>Loyihalar</span></h2>
+        </div>
+        
+        <div class="portfolio-filter scroll-reveal">
+            <button class="filter-btn active" data-filter="all">Barchasi</button>
+            <button class="filter-btn" data-filter="web">Veb Saytlar</button>
+            <button class="filter-btn" data-filter="app">Ilovalar</button>
+            <button class="filter-btn" data-filter="design">UI/UX Dizayn</button>
+        </div>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item web scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder blue-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>Kripto Birja Platformasi</h4>
+                        <p>React, Node.js, WebSockets</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item app scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder purple-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>Fitnes Ilovasi</h4>
+                        <p>React Native, Firebase</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item design scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder pink-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>E-commerce UI</h4>
+                        <p>Figma, Adobe XD</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item web scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder orange-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>Korporativ Veb-sayt</h4>
+                        <p>Vue.js, Tailwind CSS</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item design scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder green-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>Boshqaruv Paneli Dasboard</h4>
+                        <p>UI/UX Prototip</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item app scroll-reveal">
+                <div class="portfolio-img">
+                    <div class="portfolio-placeholder dark-grad"></div>
+                    <div class="portfolio-layer">
+                        <h4>Chat Messenger</h4>
+                        <p>Socket.io, Express, MongoDB</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-heading scroll-reveal">
+            <h2 class="title">Men bilan <span>Bog'lanish</span></h2>
+            <p class="subtitle">G'oyangiz bormi? Uni amalga oshirishda yordam beraman.</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info scroll-reveal">
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="info">
+                        <h3>Telefon</h3>
+                        <p>+998 90 123 45 67</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>azizbek.ismoilov@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info">
+                        <h3>Manzil</h3>
+                        <p>O'zbekiston, Toshkent shahri</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form scroll-reveal">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="text" id="name" required>
+                            <label for="name">To'liq ismingiz</label>
+                            <div class="line"></div>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" id="email" required>
+                            <label for="email">Email manzilingiz</label>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Xabar mavzusi</label>
+                        <div class="line"></div>
+                    </div>
+                    <div class="input-box">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Xabaringiz...</label>
+                        <div class="line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Xabarni yuborish <i class="fa-solid fa-paper-plane"></i></button>
+                    <!-- Toast msg -->
+                    <div class="toast-msg">Xabaringiz muvaffaqiyatli yuborildi!</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026. Ishlab chiquvchi: <span>Azizbek Ismoilov</span>. Barcha huquqlar himoyalangan.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts (Particles.js & Typed.js loaded from CDN) -->
+    <!-- Use standard particles.js as it's lighter and standard -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
